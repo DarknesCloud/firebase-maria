@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lyt_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="18dp"
+    android:layout_marginEnd="@dimen/margin_14dp"
+    android:layout_marginTop="@dimen/margin_14dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <ImageView
+                    android:id="@+id/image_view_course"
+                    android:layout_width="wrap_content"
+                    android:layout_height="214dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/imagen1" />
+
+                <TextView
+                    android:id="@+id/text_view_course_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+
+                    android:text="Course Title"
+
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/text_view_course_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Course Description"
+                    android:textColor="@color/blue"
+
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/button_view_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+
+                    android:padding="8dp"
+                    android:text="View Details"
+
+                    android:textColor="@color/blue"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
