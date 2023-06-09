@@ -56,7 +56,7 @@ public class ContentAdapter extends RecyclerView.Adapter<ContentAdapter.ViewHold
             this.itemClickListener = itemClickListener;
             // Find all views ids
             lytContainer = (RelativeLayout) itemView.findViewById(R.id.lyt_container);
-            tvTitleText = (TextView) itemView.findViewById(R.id.text_view_course_description);
+            tvTitleText = (TextView) itemView.findViewById(R.id.titulo);
 
             lytContainer.setOnClickListener(this);
 

@@ -24,5 +24,6 @@
     <dimen name="margin_120dp">120dp</dimen>
     <dimen name="margin_180dp">180dp</dimen>
     <dimen name="margin_250dp">250dp</dimen>
+    <dimen name="cardview_margin">8dp</dimen>
 
 </resources>

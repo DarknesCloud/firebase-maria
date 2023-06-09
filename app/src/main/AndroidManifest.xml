@@ -16,6 +16,12 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".VideoElement"
+            android:exported="false" />
+        <activity
+            android:name=".ElementoVideoActivity"
+            android:exported="false" />
+        <activity
             android:name=".SchoolActivity"
             android:exported="false" />
         <activity
